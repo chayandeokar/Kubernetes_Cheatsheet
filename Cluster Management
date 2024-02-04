@@ -1,0 +1,22 @@
+# kubectl cluster-info
+--- Display endpoint information regarding the services and master in the cluster
+
+
+# kubectl version
+Show the Kubernetes version functioning on the client and server
+
+
+# kubectl config view
+Get the configuration of the cluster
+
+
+# kubectl api-resources
+Make a list of the available API resources
+
+
+# kubectl api-versions
+Make a list of the available API versions
+
+
+# kubectl get all –all-namespaces
+List everything
