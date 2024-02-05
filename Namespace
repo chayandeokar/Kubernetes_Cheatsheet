@@ -1,0 +1,17 @@
+$ kubectl get po
+
+$ kubectl get po -o wide
+
+$ kubectl describe po
+
+$ kubectl get po –show-labels
+
+$ kubectl get po -l app=nginx
+
+$ kubectl get po -o yaml
+
+$ kubect l get pod [ pod_name] -o yaml –export
+
+$ kubect l get pod [pod_name] -o yaml –export > nameoffile.yaml
+
+$ kubectl get pods –field-selector status.phase=Running
