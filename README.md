@@ -1,3 +1,3 @@
 # kubectl config get-contexts
 
-# kubectl config use-contexts
+# kubectl config use-context
