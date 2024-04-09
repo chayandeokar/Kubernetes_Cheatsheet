@@ -78,3 +78,6 @@ Example:tnc google.com --port 443
 
 59. su - Switch User.
 Example: su - root
+
+60. ac(All Connections) — Total connect time for all users or specified users.
+Example: ac john
