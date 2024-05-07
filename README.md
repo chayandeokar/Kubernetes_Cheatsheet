@@ -2,3 +2,5 @@
 
 # kubectl config use-context
 --> Switch the context
+
+# kubectl update-context
