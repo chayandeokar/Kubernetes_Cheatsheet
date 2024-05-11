@@ -7,3 +7,5 @@
 
 # kubectl config set-context <context-name> [--cluster=<cluster-name>] [--user=<user-name>] [--namespace=<namespace>]
 
+# update config if it doesn't work
+
