@@ -9,3 +9,6 @@
 
 # update config if it doesn't work
 
+# kubelet to check all running pods status 
+
+see kubelet Commands
