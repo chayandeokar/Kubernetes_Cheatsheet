@@ -12,3 +12,5 @@
 # kubelet to check all running pods status 
 
 see kubelet Commands
+
+## aws eks --region us-east-1 update-kubeconfig --name 
