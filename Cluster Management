@@ -15,7 +15,7 @@ Make a list of the available API resources
 
 
 # kubectl api-versions
-Make a list of the available API versions
+Make a list of the le API versions
 
 
 # kubectl get all –all-namespaces
