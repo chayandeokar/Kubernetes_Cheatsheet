@@ -20,3 +20,5 @@ Make a list of the le API versions
 
 # kubectl get all –all-namespaces
 List everything
+
+if Cli doesn't work qe need to update it
