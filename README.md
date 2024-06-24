@@ -15,3 +15,6 @@ see kubelet Commands
 
 ## aws eks --region us-east-1 update-kubeconfig --name 
 --> used for update the contexts
+
+ifthis doesn't work 
+## update Aws Configure
