@@ -1,0 +1,24 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: 
+  namespace: 
+  labels:
+    app: 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: 
+  template:
+    metadata:
+      labels:
+        app: 
+    spec:
+      containers:
+      - name: server
+        image: 
+        imagePullPolicy: Always
+      imagePullSecrets:
+      - name: my-acr-secret
