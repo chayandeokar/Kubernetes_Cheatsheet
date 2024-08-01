@@ -1,3 +1,7 @@
+
+# Scale 
+# kubectl scale deploy consumer-ai --replicas=1 -n {namespace}
+
 # kubectl config get-contexts
 
 # kubectl config use-context
