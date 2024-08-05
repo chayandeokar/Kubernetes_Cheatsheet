@@ -13,3 +13,9 @@ sudo snap install microk8s --classic
 sudo microk8s enable dns
 sudo microk8s enable storage
 sudo microk8s enable gpu
+
+
+## kafka in microk8s:
+
+sudo microk8s kubectl create namespace kafka
+sudo microk8s kubectl create -f 'https://strimzi.io/install/latest?namespace=kafka ' -n kafka
