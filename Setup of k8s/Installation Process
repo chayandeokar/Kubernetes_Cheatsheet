@@ -1,0 +1,15 @@
+## Install Nvidia driver
+sudo apt update
+sudo apt install -y software-properties-common
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update
+sudo apt install ubuntu-drivers-common
+ubuntu-drivers devices
+
+sudo apt-get install nvidia-driver-535
+
+## Microk8s setup:
+sudo snap install microk8s --classic
+sudo microk8s enable dns
+sudo microk8s enable storage
+sudo microk8s enable gpu
