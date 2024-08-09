@@ -2,6 +2,8 @@
 # Scale 
 # kubectl scale deploy consumer-ai --replicas=1 -n {namespace}
 
+# kubectl get deployment server -n delay -o yaml > conclf.txt
+
 # kubectl config get-contexts
 
 # kubectl config use-context
